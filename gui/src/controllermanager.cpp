@@ -128,7 +128,7 @@ static QSet<QPair<uint16_t, uint16_t>> chiaki_steam_virtual_controller_ids({
 
 static ControllerManager *instance = nullptr;
 
-#define UPDATE_INTERVAL_MS 4
+#define UPDATE_INTERVAL_MS 1
 #define MOVE_CHECK_MS 1000
 
 ControllerManager *ControllerManager::GetInstance()
